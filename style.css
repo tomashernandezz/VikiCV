@@ -140,3 +140,32 @@ body
 {
     border-right: 1px solid #000;
 }
+
+.iframe
+{
+    height: 30em;
+}
+@media (max-width: 793px)
+{
+    .iframe
+    {
+        height: 20em;
+    }
+
+    .botones{
+        margin: .2em;
+        font-size: 1em;
+    }
+
+    .card-title{
+        font-size: 1em;
+    }
+    .card-text
+    {
+        font-size: .6em;
+    }
+    .btn
+    {
+        font-size: 1em;
+    }
+}
